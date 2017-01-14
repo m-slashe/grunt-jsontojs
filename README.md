@@ -1,6 +1,6 @@
-# grunt-myfirst
+# grunt-grunt-jsontojs
 
-> The best Grunt plugin ever.
+> This plugin read the json that you need and create a js file to use with your aplication..
 
 ## Getting Started
 This plugin requires Grunt `~0.4`
