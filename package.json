@@ -31,10 +31,12 @@
     "grunt": "~0.4",
     "load-grunt-tasks": "^3.5.2",
     "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-nodeunit": "^0.3.3",
-    "json-format": "^1.0.0"
+    "grunt-contrib-nodeunit": "^0.3.3"
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "dependencies": {
+    "json-format": "^1.0.0"
+  }
 }
