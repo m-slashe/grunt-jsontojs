@@ -17,7 +17,7 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-jsontojs');
 ```
 
-## The "myfirst" task
+## The "jsontojs" task
 
 ### Overview
 In your project's Gruntfile, add a section named `jsontojs` to the data object passed into `grunt.initConfig()`.

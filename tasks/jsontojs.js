@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 
   const jsonFormat = require('json-format');
 
-  grunt.registerMultiTask('jsontojs', 'This plugin read the json that you need and create a js file to use with your aplication', function() {
+  grunt.registerMultiTask('jsontojs', 'This plugin read the json that you need and create a js file to use with your aplication.', function() {
 
     var options = this.options({
       variable: 'jsonConfigs'
