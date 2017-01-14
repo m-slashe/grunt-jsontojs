@@ -37,6 +37,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "file-system": "^2.2.2"
+    "file-system": "^2.2.2",
+    "load-grunt-tasks": "^3.5.2"
   }
 }

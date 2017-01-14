@@ -1,6 +1,6 @@
 /*
- * grunt-myfirst
- * https://github.com/Muca/myfirstgrunt
+ * grunt-jsontojs
+ * https://github.com/m-slashe/grunt-jsontojs
  *
  * Copyright (c) 2017 Murilo
  * Licensed under the MIT license.
@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 
   const jsonFormat = require('json-format');
 
-  grunt.registerMultiTask('jsontojs', 'Plugin para utilizar json como js', function() {
+  grunt.registerMultiTask('jsontojs', 'This plugin read the json that you need and create a js file to use with your aplication', function() {
 
     var options = this.options({
       variable: 'jsonConfigs'
@@ -25,7 +25,8 @@ module.exports = function(grunt) {
         return grunt.file.exists(file);
       })
       .map(function(file){
-        const objectName = file.split('.').slice(0,1);
+        const fileName = file.substring(file.lastIndexOf('/') + 1 ,file.length);
+        const objectName = fileName.split('.').slice(0,1);
         finaljson[objectName] = grunt.file.readJSON(file);
       });
 
