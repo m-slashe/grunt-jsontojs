@@ -1,7 +1,7 @@
 {
   "name": "grunt-jsontojs",
   "description": "This plugin read the json that you need and create a js file to use with your aplication.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/m-slashe/grunt-jsontojs",
   "author": {
     "name": "Murilo",

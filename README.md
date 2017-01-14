@@ -1,4 +1,4 @@
-# grunt-grunt-jsontojs
+# grunt-jsontojs
 
 > This plugin read the json that you need and create a js file to use with your aplication..
 
